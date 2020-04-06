@@ -1,0 +1,12 @@
+--- patchExamp1.cpp	2020-04-06 17:20:31.670158310 +0530
++++ patchExamp2.cpp	2020-04-06 17:21:27.026753494 +0530
+@@ -2,6 +2,8 @@
+ using namespace std;
+ int main()
+ {
+-	int a=5,
++	int a=5;
++	
+ 	cout<<a;
++	//"error resolved";
+ }
